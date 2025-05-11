@@ -18,7 +18,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/whatsapp-chat-analyzer.git
 cd whatsapp-chat-analyzer
-pip install -r requirements.txt
+pip install -r requirement.txt
 streamlit run main.py
 
 
