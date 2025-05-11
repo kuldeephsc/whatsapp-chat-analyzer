@@ -1,1 +1,30 @@
-Yet to update
+# WhatsApp Chat Analyzer
+
+A tool to analyze WhatsApp chat data and generate useful insights such as message statistics, word clouds, most common words, and emoji analysis. Built with **Streamlit** for the user interface and **Flask** for the backend.
+
+## Features
+
+- **Message Statistics**: Total messages, words, media messages, and media links.
+- **Busiest Users**: Find the most active users in a WhatsApp group.
+- **Word Cloud**: Generate a word cloud of frequently used words.
+- **Most Common Words**: Display the most common words used, excluding stopwords.
+- **Emoji Analysis**: Visualize emoji usage with a pie chart.
+
+## Requirements
+
+- Python 3.x
+- Streamlit
+- Flask
+- pandas
+- matplotlib
+- wordcloud
+- urlextract
+- emoji
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+cd whatsapp-chat-analyzer
