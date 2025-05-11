@@ -10,16 +10,6 @@ A tool to analyze WhatsApp chat data and generate useful insights such as messag
 - **Most Common Words**: Display the most common words used, excluding stopwords.
 - **Emoji Analysis**: Visualize emoji usage with a pie chart.
 
-## Requirements
-
-- Python 3.x
-- Streamlit
-- Flask
-- pandas
-- matplotlib
-- wordcloud
-- urlextract
-- emoji
 
 ## Installation
 
@@ -28,3 +18,13 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/whatsapp-chat-analyzer.git
 cd whatsapp-chat-analyzer
+pip install -r requirements.txt
+streamlit run main.py
+
+
+whatsapp-chat-analyzer/
+│
+├── main.py             # Main Streamlit app
+├── helper.py           # Helper functions for data analysis
+├── preprocessor.py     # Preprocessing WhatsApp chat data
+└── requirements.txt    # List of dependencies
